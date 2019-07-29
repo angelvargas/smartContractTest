@@ -1,7 +1,7 @@
 # Smart Contract Changes
 
-####C2
+#### C2
 Getting a hash value
 
-####C1
+#### C1
 How to get values from a function
