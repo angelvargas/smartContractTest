@@ -17,4 +17,9 @@ contract MySmartContractTest {
         (uint a,  uint b) = two();
         answer = a*b;
     }
+    
+    function hashData (uint _number) public pure returns (bytes32) {
+        bytes32 hash =  keccak256(abi.encodePacked(_number));
+        return hash;
+    }
 }
